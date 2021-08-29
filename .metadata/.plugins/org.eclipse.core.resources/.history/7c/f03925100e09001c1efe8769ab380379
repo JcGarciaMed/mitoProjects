@@ -2,7 +2,7 @@ package com.greymatter;
 
 @FunctionalInterface
 public interface Calculadora {
-	int operacion(int a, int b); // sólo un metodo abstracto --> functional // test upload
+	int operacion(int a, int b); // sólo un metodo abstracto --> functional
 	default void saludo() {
 		System.out.println("Hola mundo anonimo");
 	}
