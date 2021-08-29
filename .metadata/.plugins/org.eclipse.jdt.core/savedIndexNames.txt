@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+D:\mito\.metadata\.plugins\org.eclipse.jdt.core
+2394902059.index
+2383125644.index
+1965422749.index
+2803151925.index
+1574843208.index
+1813641571.index
+2570436261.index

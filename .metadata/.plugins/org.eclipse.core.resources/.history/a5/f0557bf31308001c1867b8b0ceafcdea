@@ -1,0 +1,11 @@
+package com.greymatter.predicatefunction.predicate;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			List<Persona> personas = new ArrayList<>();
+	}
+}
