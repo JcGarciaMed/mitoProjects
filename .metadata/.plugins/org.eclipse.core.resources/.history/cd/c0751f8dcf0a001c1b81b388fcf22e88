@@ -1,0 +1,16 @@
+package com.greymatter.datosCalculados;
+
+import java.util.Random;
+
+public class Ordenacion {
+	public static void main(String[] args) {
+		int[] array=generarArrayAleatoria();
+		System.out.println("Array sin ordenar");
+		System.out.println(array.toString());
+	}
+	
+	public static int[] generarArrayAleatoria() {
+		return new Random().ints(100,0,1000).toArray();
+	}
+}
+

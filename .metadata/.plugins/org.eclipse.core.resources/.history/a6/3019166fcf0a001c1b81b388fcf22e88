@@ -1,0 +1,13 @@
+package com.greymatter.datosCalculados;
+
+import java.util.Random;
+
+public class Ordenacion {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static int[] generarArrayAleatoria() {
+		return new Random().ints(100,0,1000).toArray();
+	}
+}

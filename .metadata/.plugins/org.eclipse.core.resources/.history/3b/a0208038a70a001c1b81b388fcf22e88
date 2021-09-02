@@ -1,0 +1,14 @@
+package com.greymatter.flatmap.filter;
+
+import com.greymatter.flatmap.filter.Persona;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+public class Program {
+	public static void main(String[] args) {
+		List<Persona> personas = Arrays.asList(new Persona("Jorge", LocalDate.of(1945, 2, 18)));
+	}
+}

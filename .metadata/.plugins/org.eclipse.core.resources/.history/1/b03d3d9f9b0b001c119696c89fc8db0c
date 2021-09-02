@@ -1,0 +1,7 @@
+package com.greymatter.collectors;
+
+public class Empleado {
+	private String nombre;
+	private double salario;
+	private String departamento;
+}

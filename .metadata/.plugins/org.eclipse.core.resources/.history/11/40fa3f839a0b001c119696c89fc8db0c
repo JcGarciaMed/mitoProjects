@@ -1,0 +1,24 @@
+package com.greymatter.datosCalculados;
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Datos {
+	public static void main(String[] args) {
+		double array[] = generarArrayAleatoria();
+		System.out.println(Arrays.toString(array));
+		
+		double maximo = Arrays.stream(array)
+							.max()
+							.orElse(0);
+		double minmo = Arrays.stream(array)
+				.min()
+				.orElse(0);		
+		System.out.println(maximo);
+				
+	}
+	
+	public static double[] generarArrayAleatoria() {
+		return new Random().doubles(100,0,1000).toArray();
+	}	
+}

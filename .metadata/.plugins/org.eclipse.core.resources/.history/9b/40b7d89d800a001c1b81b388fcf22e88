@@ -1,0 +1,15 @@
+package com.greymatter.flatmap.flatmap;
+
+import java.util.List;
+
+public class Program {
+	public static void main(String[] args) {
+		
+	}
+	public static List<Persona> dataBase(){
+		Persona p1 = new Persona("Jorge");
+		p1.getViajes().add(new Viaje("España"));
+		p1.getViajes().add(new Viaje("italia"));
+		p1.getViajes().add(new Viaje("francia"));
+	}
+}

@@ -1,0 +1,24 @@
+package com.greymatter.flatmap.map;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Program {
+	
+	public static void main(String[] args) {
+		List<Persona> personas = new ArrayList<>();
+		
+		personas.add(new Persona("Pepe","Garica", LocalDate.of(1989, 07, 02)));
+		personas.add(new Persona("Jorge","Medina", LocalDate.of(1989, 07, 02)));
+		personas.add(new Persona("CARLOS","Nazario", LocalDate.of(1989, 07, 02)));
+		personas.add(new Persona("augusto","Izecson", LocalDate.of(1989, 07, 02)));
+		
+		personas.stream()
+				.map(p->p.getApellidos())
+				.map(s->s.toUpperCase())
+				
+		
+	}
+}

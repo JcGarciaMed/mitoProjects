@@ -1,0 +1,16 @@
+package com.greymatter.collectors;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Colecciones {
+	public static void main(String[] args) {
+		List<Empleado> empleados = Arrays.asList(
+				new Empleado("jorge", 7000.00, "Lima"),
+				new Empleado("jorge", 7000.00, "Lima"),
+				new Empleado("jorge", 7000.00, "Lima"),
+				new Empleado("jorge", 7000.00, "Lima"),
+				
+				);
+	}
+}

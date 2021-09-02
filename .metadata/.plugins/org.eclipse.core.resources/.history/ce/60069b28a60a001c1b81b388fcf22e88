@@ -1,0 +1,17 @@
+package com.greymatter.flatmap.filter;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.greymatter.flatmap.flatmap.Viaje;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class Persona {
+	private String nombre;
+	private LocalDate fechaNacimiento;
+}
