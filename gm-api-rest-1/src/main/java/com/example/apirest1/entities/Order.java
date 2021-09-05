@@ -1,4 +1,4 @@
-package com.example.apirest1.dto;
+package com.example.apirest1.entities;
 
 import java.util.Date;
 
@@ -7,7 +7,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class OrderResponse {
+public class Order {
 	private String orderId;
 	private String status;
 	private String accountId;
@@ -15,4 +15,3 @@ public class OrderResponse {
 	private Double totalTax;
 	private Date transactionDate;
 }
-

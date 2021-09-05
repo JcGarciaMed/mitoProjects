@@ -1,6 +1,0 @@
-package com.greymatter;
-
-public class Program {
-	public static void main(String) {
-		}
-	}
