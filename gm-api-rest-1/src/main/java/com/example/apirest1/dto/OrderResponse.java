@@ -1,6 +1,7 @@
 package com.example.apirest1.dto;
 
 import java.util.Date;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,5 +15,6 @@ public class OrderResponse {
 	private Double totalAmount;
 	private Double totalTax;
 	private Date transactionDate;
+	private List<OrderDetailResponse> items;
 }
 
